@@ -37,7 +37,11 @@
   }
 }
 
-p{
-  padding:0px;
-  margin:0px;
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
