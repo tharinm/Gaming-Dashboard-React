@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IconTextvalucard({ count, icon }) {
+export default function IconTextvalucard({ count, icon ,head}) {
   return (
     <div
       style={{
@@ -17,7 +17,7 @@ export default function IconTextvalucard({ count, icon }) {
     >
       <img src={icon} alt="" style={{ width: "20px" }} />
       <div style={{ color: "white", textAlign: "left" }}>
-        <label style={{ fontSize: "10px" }}>Online</label>
+        <label style={{ fontSize: "10px" }}>{ head}</label>
         <p style={{ fontSize: "13px", marginBottom: "2px" }}>{count}</p>
       </div>
     </div>

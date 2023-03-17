@@ -11,7 +11,10 @@ export default function LeftnavBottom() {
         display: "flex",
         flexDirection: "column",
         gap: "30px",
-        marginTop: "10px",
+        marginTop: "20px",
+        height: '100%',
+        //backgroundColor: 'red',
+        justifyContent:'center'
       }}
     >
       <NavitemBottom icon={dots} />

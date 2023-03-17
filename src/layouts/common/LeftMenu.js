@@ -12,8 +12,8 @@ export default function LeftMenu() {
         flexDirection: "column",
         justifyContent: "space-between",
         alignItems: "center",
-        height: "91%",
-        //gap:'100px'
+       // height: "100%",
+       // gap:'100px'
       }}
     >
       <LeftnavTop />

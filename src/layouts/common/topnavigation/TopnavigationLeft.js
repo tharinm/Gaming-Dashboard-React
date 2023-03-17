@@ -21,11 +21,11 @@ export default function TopnavigationLeft() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          gap:'20px'
+          gap: "20px",
         }}
       >
         <BurgerMenu />
-        <IconTextvalucard icon={hexa} count={"28 474"} />
+        <IconTextvalucard icon={hexa} count={"28 474"} head={"Online"} />
       </div>
     </div>
   );
