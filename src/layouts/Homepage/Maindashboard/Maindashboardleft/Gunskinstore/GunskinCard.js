@@ -1,9 +1,7 @@
 import React from "react";
-import GunSkinLeftcard from "../../../../../component/Maindashboardright/Gunskins/GunSkinLeftcard";
+import GunSkinLeftcard from "../../../../../component/Gunskins/GunSkinLeftcardcompo";
 import knife from "../../../../../Images/png/knife.png";
-import gun1 from '../../../../../Images/png/gun1.png'
-
-
+import gun1 from "../../../../../Images/png/gun1.png";
 
 export default function GunskinCard() {
   const gun = [
@@ -37,7 +35,7 @@ export default function GunskinCard() {
       title: "Karambit Knife",
       price: "$94,27",
       topcolor: "#F2921D",
-      verifiedicon: '',
+      verifiedicon: "",
     },
   ];
   return (
@@ -61,9 +59,9 @@ export default function GunskinCard() {
               borderRadius: "5px",
               border: "1px solid gray",
             }}
+            key={key}
           >
             <GunSkinLeftcard
-              key={key}
               name={val.name}
               topcolor={val.topcolor}
               img={val.img}

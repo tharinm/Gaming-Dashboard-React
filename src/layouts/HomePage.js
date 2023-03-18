@@ -6,7 +6,9 @@ import MainDashboard from "./Homepage/MainDashboard";
 
 export default function HomePage() {
   return (
-    <div style={{ backgroundColor: " #211a38", width: "100%",  }}>
+    <div style={{
+      backgroundColor: " #211a38", width: "100%", height:''
+    }}>
       <TopNavigation />
       <div style={{ display: "flex", height: "93vh" ,overflow:"hidden"}}>
         <LeftMenu />
