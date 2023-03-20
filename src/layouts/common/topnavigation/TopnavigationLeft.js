@@ -12,7 +12,7 @@ export default function TopnavigationLeft() {
         display: "flex",
         gap: "80px",
         alignItems: "center",
-        marginLeft: "30px",
+        marginLeft: "10px",
       }}
     >
       <BrandLogo img={Brand} />

@@ -90,6 +90,7 @@ export default function PlayersinfoLeft() {
         alignItems: "center",
         gap: "10px",
       }}
+  
     >
       {player.map((val, key) => {
         return (
@@ -100,6 +101,7 @@ export default function PlayersinfoLeft() {
               justifyContent: "center",
               alignItems: "center",
             }}
+            key={key}
           >
             <ProfilePic avatar={val.profile} />
             <Textvaluecard img={val.img} count={val.count} color={val.color} />

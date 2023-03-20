@@ -59,7 +59,7 @@ export default function ChatMembers() {
     >
       {players.map((val, key) => {
         return (
-          <div style={{ marginTop: "10px" }}>
+          <div style={{ marginTop: "10px" }} key={key}>
             <ChatUsers
               profile={val.profile}
               key={key}

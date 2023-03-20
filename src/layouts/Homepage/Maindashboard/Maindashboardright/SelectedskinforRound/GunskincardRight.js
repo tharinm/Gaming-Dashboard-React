@@ -1,7 +1,7 @@
 import React from "react";
 import GunsSkinRightcardcompo from "../../../../../component/Gunskins/GunsSkinRightcardcompo";
 import gun4 from "../../../../../Images/png/gun4.png";
-import gun5 from "../../../../../Images/png/gun5.png";
+import gun5 from "../../../../../Images/png/minigun.png";
 import gun1 from "../../../../../Images/png/gun1.png";
 
 export default function GunskincardRight() {

@@ -77,6 +77,7 @@ export default function PlayersinfoRight() {
               justifyContent: "center",
               alignItems: "center",
             }}
+            key={key}
           >
             <Textvaluecard
               img={val.coin}
@@ -85,11 +86,11 @@ export default function PlayersinfoRight() {
               isFilled
             />
 
-            <div style={{ width: "50px" }} key={key}>
+            <div style={{ width: "50px" }}>
               {val.img && <Guns img={val.img} color={val.color} />}
             </div>
 
-            <GameStatus status={val.status} key={key} />
+            <GameStatus status={val.status} />
           </div>
         );
       })}
